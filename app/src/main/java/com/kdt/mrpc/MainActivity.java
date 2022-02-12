@@ -149,6 +149,7 @@ public class MainActivity extends Activity
 
         presence.put("afk", true);
         presence.put("since", current);
+        presence.put("status", "Do Not Disturb"); 
         presence.put("status", null);
 
         ArrayMap<String, Object> arr = new ArrayMap<>();
